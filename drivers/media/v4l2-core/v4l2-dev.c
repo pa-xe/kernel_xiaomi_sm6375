@@ -862,7 +862,6 @@ static bool is_grabber_nr_reserved(int nr)
 		case 0: // msm-config vdev
 		case 1: // msm-sensor vdev
 		case 2: // msm-sensor vdev
-		case 3: // msm-sensor vdev
 		case 32: // msm_vidc_v4l2 dev
 		case 33: // msm_vidc_v4l2 dev
 			return true;
